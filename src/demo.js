@@ -16,7 +16,7 @@ const createTouchStream = () => {
     return stream$;
 };
 
-const PADDING = 50;
+const PADDING = 150;
 
 const isInCorner = (touch, topOrBottom, leftOrRight) => {
     const minY = topOrBottom === 'top' ? 0 : window.innerHeight - PADDING;
