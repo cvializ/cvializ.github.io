@@ -75,7 +75,7 @@ export const runMorseRepeater = (averageSpeed$) => {
 
     oscillator.start(0);
 
-    const SPEED_TARGET = 5;
+    const SPEED_TARGET = 8;
     const SPEED_RANGE = 3; // 3 above, 3 below
 
     averageSpeed$.pipe(
